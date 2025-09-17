@@ -1,37 +1,13 @@
-.debug {
-    * {
-        border: 1px dashed;
-        margin: auto;
-    }
-
-    header {
-        height: 100px;
-        background-color: green;
-    }
-
-    .container_bg {
-        width: 80%;
-        background-color: burlywood;
-        height: 1500px;
-
-    }
-
-    .container_sm {
-        width: 70%;
-        background-color: cadetblue;
-        height: 1500px;
-
-    }
-
-}
-
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*common*/
+h1{
+    display: block;
+}
 
 /*--utilities--*/
 .d_flex {
@@ -42,6 +18,19 @@
     justify-content: space-between;
 }
 
+.container_bg {
+        width: 80%;     
+        margin: auto;
+        
+    }
+
+    .container_sm {
+        width: 70%;
+        margin: auto;        
+        
+    }
+
+/* -- header--*/
 .menu {
     display: flex;
     padding: 1rem;
@@ -53,4 +42,16 @@
     .right_menu {
         align-items: center;
     }
+
+    a{
+        padding: 0 1rem;
+        text-decoration: none;
+    }
+}
+
+.btn{
+    background-color: #0061fe;
+    padding: 0.5rem;
+    border: none;
+
 }
