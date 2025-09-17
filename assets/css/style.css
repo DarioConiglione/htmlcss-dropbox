@@ -15,6 +15,16 @@ img{
     position: relative;
 }
 
+.btn{
+    background-color: #0061fe;
+    padding: 0.5rem;
+    border: none;
+    color: white;
+}
+
+
+
+
 
 /*--utilities--*/
 .d_flex {
@@ -37,6 +47,25 @@ img{
         margin: auto;              
 }
 
+.plan{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+
+
+
+
+/*--position--*/
+.rel {
+    position: relative;
+}
+
+.abs {
+    position: absolute;
+}
+
 
 /* -- header--*/
 .menu {
@@ -57,17 +86,10 @@ img{
     }
 }
 
-.btn{
-    background-color: #0061fe;
-    padding: 0.5rem;
-    border: none;
-
-}
-
 /*--main*/
 
 .part-left{
-    width: 30%;
+    width: 30%;        
 }
 
 .part-right{
@@ -76,4 +98,8 @@ img{
 
 h1{
     font-size: 4rem;
+}
+
+h3{
+    font-size: 3rem;
 }
