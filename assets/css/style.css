@@ -1,0 +1,34 @@
+.debug{
+    * {
+        border: 1px dashed;
+        margin: auto;
+  }
+
+    header{
+        height: 100px;
+        background-color: green;
+  }
+
+    .container_bg{
+        width: 80%;
+        background-color: burlywood;
+        height: 1500px;
+
+    }
+
+    .container_sm{
+        width: 70%;
+        background-color:cadetblue;
+        height: 1500px;
+        
+    }
+
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
