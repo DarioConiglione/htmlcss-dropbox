@@ -2,16 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 /*common*/
-h1{
-    display: block;
+img{
+    width: 60%;
 }
+
+.jumbotron{
+    background-color: #b4d0e6;
+    position: relative;
+}
+
 
 /*--utilities--*/
 .d_flex {
     display: flex;
+
 }
 
 .space_between {
@@ -19,16 +27,16 @@ h1{
 }
 
 .container_bg {
-        width: 80%;     
+        width: 70%;     
         margin: auto;
-        
-    }
+        padding: 2rem;
+}
 
-    .container_sm {
-        width: 70%;
-        margin: auto;        
-        
-    }
+.container_sm {
+        width: 60%;
+        margin: auto;              
+}
+
 
 /* -- header--*/
 .menu {
@@ -54,4 +62,18 @@ h1{
     padding: 0.5rem;
     border: none;
 
+}
+
+/*--main*/
+
+.part-left{
+    width: 30%;
+}
+
+.part-right{
+    width: 70%;
+}
+
+h1{
+    font-size: 4rem;
 }
