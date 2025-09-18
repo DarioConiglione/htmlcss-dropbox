@@ -1,17 +1,18 @@
 * {
     padding: 0;
+    margin:0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
 /*common*/
 img{
-    width: 60%;
+    width: 100%;
 }
 
 .jumbotron{
     background-color: #b4d0e6;
-    position: relative;
+   
 }
 
 .btn{
@@ -109,26 +110,35 @@ img{
 /* -- header--*/
 .menu {
     display: flex;
-    padding: 1rem;
+    padding: 0 1rem;
 
     .left_menu {
         align-items: center;
+        padding: 0 1rem;
+    
+        
     }
 
     .right_menu {
         align-items: center;
+        padding: 0 1rem;
+       
     }
 
     a{
-        padding: 0 1rem;
-        text-decoration: none;
+       text-decoration: none;
     }
 }
 
 /*--main--*/
 
 .part-left{
-    width: 30%;        
+    width: 30%;
+
+    p{
+        padding: 1.5rem; 
+    }
+            
 }
 
 .part-right{
@@ -142,3 +152,17 @@ h1{
 h3{
     font-size: 3rem;
 }
+
+/*--Footer--*/
+
+footer {
+    background-color: black;
+    color: white;
+    
+    a{
+        color: white;
+        text-decoration: none;
+
+    }
+}
+
