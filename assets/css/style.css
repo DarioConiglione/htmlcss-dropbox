@@ -21,6 +21,10 @@ img{
     color: white;
 }
 
+.partner {
+    padding: 3rem;  
+}
+
 
 
 
@@ -56,23 +60,11 @@ img{
     gap: 3rem;
 }
 
-.professional{
+.type_plane {
     width: 25%;
     border: 1px solid gray;
     padding: 2rem;
-    
-}
 
-.advance{
-    width: 25%;
-    border: 1px solid gray;
-    padding: 2rem;
-}
-
-.enterprise{
-    width: 25%;
-    border: 1px solid gray;
-    padding: 2rem;
 }
 
 .list_unstyle{
@@ -80,6 +72,9 @@ img{
 
 }
 
+.brd {
+    border: 1px solid gray;
+}
 
 
 
@@ -113,7 +108,7 @@ img{
     }
 }
 
-/*--main*/
+/*--main--*/
 
 .part-left{
     width: 30%;        
