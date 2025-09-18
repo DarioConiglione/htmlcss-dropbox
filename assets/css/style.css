@@ -25,7 +25,30 @@ img{
     padding: 3rem;  
 }
 
+.container_bg {
+        width: 70%;     
+        margin: auto;
+        padding: 2rem;
+}
 
+.container_sm {
+        width: 60%;
+        margin: auto;              
+}
+
+.main_card{
+        width: 100%;
+        height: 100%;
+
+            .card_top {
+                padding: 0.5rem 1rem;
+        }
+
+            .card_bot {
+                padding: 1rem;
+                padding-bottom: 2rem;
+        }   
+    }
 
 
 
@@ -43,16 +66,10 @@ img{
     justify-content: space-evenly;
 }
 
-.container_bg {
-        width: 70%;     
-        margin: auto;
-        padding: 2rem;
+.wrap{
+    flex-wrap: wrap;
 }
 
-.container_sm {
-        width: 60%;
-        margin: auto;              
-}
 
 .plan{
     display: flex;
