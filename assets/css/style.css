@@ -34,8 +34,7 @@ img{
 
 .container_sm {
         width: 60%;
-        margin: auto; 
-        padding-top: 9rem;             
+        margin: auto;              
 }
 
 .main_card{
@@ -82,9 +81,13 @@ img{
 .type_plane {
     width: 30%;
     border: 1px solid gray;
-    padding: 2rem;
-
+    
 }
+
+
+
+
+
 
 .list_unstyle{
    list-style-type: none;
@@ -99,11 +102,22 @@ img{
     padding-top: 3rem;
 }
 
+.test {
+    padding: 2rem;  
+} 
+
 .pd_ext {
     padding: 0.5rem;
 }
+.pd_bg {
+    padding-top: 9rem;
 
+}
 
+.type_plane p:first-child {
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
 
 
 
